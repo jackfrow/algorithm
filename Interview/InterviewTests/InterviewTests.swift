@@ -31,5 +31,39 @@ class InterviewTests: XCTestCase {
         
         
     }
+    
+    func testTreeDepth()  {
+        
+        let root = TreeNode(1)
+        let left1 = TreeNode(2)
+        let right1 = TreeNode(3)
+        let left2 = TreeNode(4)
+        
+        root.left = left1
+        root.right = right1
+        left1.left = left2
+        
+        XCTAssert(maxDepth(root: root) == 3)
+        
+    }
+    
+    
+    func testValidBSTTree() {
+        
+        let root = TreeNode(3)
+        let letf1 = TreeNode(2)
+        let right1 = TreeNode(4)
+        let left2 = TreeNode(1)
+        let right2 = TreeNode(5)
+        
+        root.left = letf1
+        root.right = right1
+        letf1.left = left2
+        right1.right = right2
+        
+        XCTAssert(isValidBST(root: root) == true)
+        
+        
+    }
 
 }
