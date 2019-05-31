@@ -17,6 +17,7 @@
 		4567B6E9229F87C200C303A0 /* reverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4567B6E8229F87C200C303A0 /* reverseString.swift */; };
 		45B6BB8122A0C27500742D80 /* LinkedOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6BB8022A0C27500742D80 /* LinkedOrder.swift */; };
 		45B6BB8322A0CB7500742D80 /* FastPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6BB8222A0CB7500742D80 /* FastPointer.swift */; };
+		45B6BB8622A0D8C700742D80 /* SimplePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6BB8522A0D8C700742D80 /* SimplePath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4567B6E8229F87C200C303A0 /* reverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseString.swift; sourceTree = "<group>"; };
 		45B6BB8022A0C27500742D80 /* LinkedOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedOrder.swift; sourceTree = "<group>"; };
 		45B6BB8222A0CB7500742D80 /* FastPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastPointer.swift; sourceTree = "<group>"; };
+		45B6BB8522A0D8C700742D80 /* SimplePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		4567B6A1229F721C00C303A0 /* Interview */ = {
 			isa = PBXGroup;
 			children = (
+				45B6BB8422A0D8AB00742D80 /* StackandQueue */,
 				459BEA2D22A006E300FAD47C /* LinkedList */,
 				4567B6E7229F879100C303A0 /* String */,
 				4567B6B5229F769400C303A0 /*  Dictionary_ and_collection */,
@@ -130,6 +133,14 @@
 				45B6BB8222A0CB7500742D80 /* FastPointer.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		45B6BB8422A0D8AB00742D80 /* StackandQueue */ = {
+			isa = PBXGroup;
+			children = (
+				45B6BB8522A0D8C700742D80 /* SimplePath.swift */,
+			);
+			path = StackandQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B6BB8622A0D8C700742D80 /* SimplePath.swift in Sources */,
 				4567B6B7229F774200C303A0 /* twoSum.swift in Sources */,
 				4567B6E9229F87C200C303A0 /* reverseString.swift in Sources */,
 				4567B6A5229F721C00C303A0 /* ViewController.swift in Sources */,

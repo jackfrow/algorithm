@@ -24,5 +24,12 @@ class InterviewTests: XCTestCase {
         
         XCTAssert(reverWords(s: "the sky is blue") == "blue is sky the")
     }
+    
+    func testSimplifyPath()  {
+        
+        XCTAssert(simplifyPath(path: "/a/./b/../../c") == "/c")
+        
+        
+    }
 
 }
