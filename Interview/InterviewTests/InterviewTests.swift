@@ -65,5 +65,13 @@ class InterviewTests: XCTestCase {
         
         
     }
+    
+    func testBubble()  {
+        
+        var arr = [2,3,1]
+    
+        XCTAssert(bubbleSort(&arr) == [1,2,3])
+        
+    }
 
 }
