@@ -46,6 +46,7 @@ private func fetchBaseNumber(number: Int, digit: Int) -> Int {
 }
 
 func radixSort(list: [Int]) -> [Int]{
+    
     var bucket = createBucket()
     let maxNumber = listMaxItem(list: list)
     let maxLength = numberLength(number: maxNumber)
