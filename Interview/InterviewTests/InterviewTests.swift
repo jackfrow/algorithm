@@ -55,6 +55,7 @@ class InterviewTests: XCTestCase {
         let right1 = TreeNode(4)
         let left2 = TreeNode(1)
         let right2 = TreeNode(5)
+    
         
         root.left = letf1
         root.right = right1
@@ -73,5 +74,6 @@ class InterviewTests: XCTestCase {
         XCTAssert(bubbleSort(&arr) == [1,2,3])
         
     }
+
 
 }
