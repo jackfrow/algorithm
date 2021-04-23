@@ -55,6 +55,9 @@ func removeNthformEnd(head: ListNode? ,_ n: Int) -> ListNode? {
         post = post!.next
     }
     
+    
+    
+    
     //删除节点
     prev!.next = prev!.next!.next
     
