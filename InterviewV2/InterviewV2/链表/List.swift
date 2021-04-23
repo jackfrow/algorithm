@@ -161,6 +161,7 @@ func hasCycle(_ head: ListNode?) -> Bool {
 //思路,利用两个速度一样的指针向后移动,第二个指针开始就落后头节点n个位置,当第二个指针为nil后,第一个指针就距离尾部n个节点
 func removeNthFormEnd(head:ListNode?,_ n:Int) -> ListNode? {
     
+
     
     guard let head = head else {
         return nil
